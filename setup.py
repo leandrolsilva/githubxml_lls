@@ -103,12 +103,12 @@ def find_package_data(
     return out
 
 
-PACKAGE = "githubxml"
+PACKAGE = "githubxml_lls"
 DESCRIPTION = "Projeto para fazer versão xml da API do Github"
 NAME = PACKAGE
-AUTHOR = "Renzo Nuccitelli"
-AUTHOR_EMAIL = "renzo.n@gmail.com"
-URL = "https://github.com/pythonprobr/pypraticot04"
+AUTHOR = "Leandro L da Silva"
+AUTHOR_EMAIL = "leandro.lls@gmail.com"
+URL = "https://github.com/leandrolsilva/githubxml_lls"
 VERSION = __import__(PACKAGE).__version__
 
 setup(
