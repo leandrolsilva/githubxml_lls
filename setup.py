@@ -110,6 +110,11 @@ AUTHOR = "Leandro L da Silva"
 AUTHOR_EMAIL = "leandro.lls@gmail.com"
 URL = "https://github.com/leandrolsilva/githubxml_lls"
 VERSION = __import__(PACKAGE).__version__
+LOG_DESCRIPTIO =    """
+                        Permite obter os dados de um usuário do Github no formato xml.
+                        
+                        Este projeto foi uma atividade do curso Python Prático da http://python.pro.br
+                    """
 
 setup(
     name=NAME,
