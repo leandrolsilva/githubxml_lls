@@ -103,12 +103,12 @@ def find_package_data(
     return out
 
 
-PACKAGE = "githubxml_lls"
+PACKAGE = "githubxmllls"
 DESCRIPTION = "Projeto para fazer versão xml da API do Github. Permite obter os dados de um usuário do Github no formato xml."
 NAME = PACKAGE
 AUTHOR = "Leandro L da Silva"
 AUTHOR_EMAIL = "leandro.lls@gmail.com"
-URL = "https://github.com/leandrolsilva/githubxml_lls"
+URL = "https://github.com/leandrolsilva/githubxmllls"
 VERSION = __import__(PACKAGE).__version__
 LOG_DESCRIPTIO =    """
                         Permite obter os dados de um usuário do Github no formato xml.
